@@ -14,7 +14,7 @@ Avoid Python 2.x vs 3.x issues, also the popular mesos docker image is outdated 
 vi ~/.zshrc
 
 ## Add the following line
-alias awsd='docker run --rm -t $(tty &>/dev/null && echo "-i") -e "AWS_ACCESS_KEY_ID=<Enter your key here or point to env variable>" -e "AWS_SECRET_ACCESS_KEY=<Enter your secret here or point to env variable>" -e "AWS_DEFAULT_REGION=us-west-2" -v "$(pwd):/project" nullstring/   aws-cli'
+alias awsd='docker run --rm -t $(tty &>/dev/null && echo "-i") -e "AWS_ACCESS_KEY_ID=<Enter your key here or point to env variable>" -e "AWS_SECRET_ACCESS_KEY=<Enter your secret here or point to env variable>" -e "AWS_DEFAULT_REGION=us-west-2" -v "$(pwd):/project" nullstring/aws-cli'
 
 ## Re-load settings
 source ~/.zshrc
