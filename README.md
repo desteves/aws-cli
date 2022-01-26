@@ -1,4 +1,6 @@
 # aws-cli
+
+[![Git](https://app.soluble.cloud/api/v1/public/badges/7860657c-2b73-42f8-a499-ee57d7cfe9cd.svg?orgId=679096383598)](https://app.soluble.cloud/repos/details/github.com/desteves/aws-cli?orgId=679096383598)  
 AWS CLI Dockerfile
 
 ## Why
